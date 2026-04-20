@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['HDPE', 'PET_Pfand', 'PET_no_Pfand']
+
+roboflow:
+  workspace: issraas-workspace
+  project: plastic_detection_project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/issraas-workspace/plastic_detection_project/dataset/1

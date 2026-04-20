@@ -1,0 +1,11 @@
+# Mac system files
+.DS_Store
+
+# Ignore the huge image folders
+test/
+train/
+valid/
+
+# Ignore Python junk
+__pycache__/
+
