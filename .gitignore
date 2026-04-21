@@ -1,11 +1,21 @@
 # Mac system files
 .DS_Store
 
-# Ignore the huge image folders
-test/
-train/
-valid/
+# Ignore the huge image folders inside Data
+Data/test/
+Data/train/
+Data/valid/
 
-# Ignore Python junk
+# Ignore other heavy dataset folders
+Smart_bin_dataset/
+
+# Ignore model weights and training logs
+pretrained/
+runs/
+*.pt
+
+# Ignore Python cache
 __pycache__/
 
+# Ignore personal notes/documentation
+Work_Documentation/
